@@ -32,7 +32,7 @@ export default function Home() {
       </FramerWrapper>
 
       {/* GITHUB BUTTON  */}
-      <GithubBtn />
+      {/* <GithubBtn /> */}
     </>
   );
 }

@@ -4,7 +4,8 @@ import "./globals.css";
 import { cn } from "@/lib/utils";
 import Navbar from "@/components/Navbar";
 import { portfolioConfig } from "@/config/portfolio.config";
-import DarkMode from "@/components/DarkMode";
+// import DarkMode from "@/components/DarkMode";
+import DarkMode from "@/components/DarkMode1";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -44,7 +45,6 @@ export const metadata: Metadata = {
     title: portfolioConfig.name,
     description: portfolioConfig.description,
     images: [`${portfolioConfig.seo.url}/og-image.png`],
-    creator: portfolioConfig.seo.twitterHandle,
   },
   icons: {
     icon: "/public/favicon.ico",
@@ -59,15 +59,21 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${poppins.variable} ${rubik.variable}`}>
-        <main
+        {/* <main
           className={cn(
             "flex  relative  break-words h-dvh min-h-screen items-center justify-between pt-14 pb-4 px-40 max-md:p-4 bg-transparent max-sm:pt-20 bg-[radial-gradient(#2f7df4_1px,transparent_1px)] [background-size:16px_16px]",
             { "bg-white": "#E6E7EB" }
           )}
+        > */}
+        <main
+          className={cn(
+            "flex relative break-words h-dvh min-h-screen items-center justify-between pt-14 pb-4 px-40 max-md:p-4 transition-colors duration-300",
+            "bg-[radial-gradient(#2f7df4_1px,transparent_1px)] dark:bg-[radial-gradient(#1e293b_1px,transparent_1px)] [background-size:16px_16px]"
+          )}
         >
           {/* NAVBAR ->  */}
           <Navbar />
-          {/* <DarkMode /> */}
+          <DarkMode />
           {children}
         </main>
       </body>

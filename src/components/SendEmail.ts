@@ -6,6 +6,7 @@ import {redirect} from  'next/navigation'
 // ADD RESEND_API_KEY IN YOUR .ENV FILE 
 const resend = new Resend(process.env.RESEND_API_KEY);
 export const SendEmail = async (formdata: FormData) => {
+   console.log("##formdata",formdata)
   const message = formdata.get("message");
   const name = formdata.get("name");
   const SenderEmail = formdata.get("SenderEmail");
@@ -16,7 +17,7 @@ export const SendEmail = async (formdata: FormData) => {
   }
   await resend.emails.send({
     from: "Contact Form <onboarding@resend.dev>",
-    to: `mdtaqui.jhar@gmail.com`,
+    to: `hemangjagani@gmail.com`,
     subject: `${name} From Contact Form.`,
     reply_to: `${SenderEmail}`,
     text: `sender email: ${SenderEmail} 

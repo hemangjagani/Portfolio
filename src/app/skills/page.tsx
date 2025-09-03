@@ -16,7 +16,7 @@ const skillPage = () => {
       <div className="flex flex-col gap-3">
         <Heading>My Technical Experience/Skills.</Heading>
         <FramerWrapper y={0} x={200}>
-          <p className="font-poppins text-xl w-full text-primary max-sm:text-lg">
+          <p className="font-poppins text-xl w-full text-primary max-sm:text-lg leading-normal">
             I have a solid understanding of HTML5, CSS3, JS, TS and React,
             including responsive design principles. I specialize in building web
             applications and sites using Javascript, Typescript, React, Nextjs &

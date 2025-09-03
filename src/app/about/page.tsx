@@ -17,12 +17,12 @@ const page = () => {
       </Badge>
       <div className="flex flex-col gap-5">
         <Heading>
-          {portfolioConfig.title} And Web <br /> Developer, Based In{" "}
+          {portfolioConfig.title} And Web <br /> Developer, Reside In{" "}
           {portfolioConfig.about.personalInfo.currentNation}.
         </Heading>
 
         <FramerWrapper y={0} x={100}>
-          <p className=" font-poppins text-xl w-full text-primary max-sm:text-lg ">
+          <p className=" font-poppins text-xl w-full text-primary max-sm:text-lg leading-snug">
             {portfolioConfig.about.bio}
           </p>
         </FramerWrapper>

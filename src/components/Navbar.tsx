@@ -67,13 +67,13 @@ const Navbar = () => {
       ),
       href: '/contact',
     },
-    {
-      title: 'More',
-      icon: (
-        <MoreHorizontal className='h-full w-full ' />
-      ),
-      href: '/more',
-    },
+    // {
+    //   title: 'More',
+    //   icon: (
+    //     <MoreHorizontal className='h-full w-full ' />
+    //   ),
+    //   href: '/more',
+    // },
   ];
   const [scrolling, setScrolling] = useState(false);
   const pathname = usePathname()

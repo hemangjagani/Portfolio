@@ -2,7 +2,7 @@
 
 A simple and Beautiful Porfolio made with Nextjs and Shadcn Ui.
 
-![Demo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/u7eq68h0uvs6xqgw3yqe.jpeg)
+![Demo](https://hemangjagani.vercel.app/)
 
 ## Getting Started
 
@@ -45,16 +45,3 @@ The configuration file contains the following sections:
 - **Education**: Academic background and qualifications
 - **Projects**: Portfolio of projects with descriptions and links
 - **More Links**: Additional external links and resources
-
-### Customizing Your Portfolio
-
-To personalize the portfolio, simply edit the values in the `portfolio.config.ts` file. All changes will be reflected throughout the site automatically without having to modify multiple files.
-
-Example usage in a component:
-
-```typescript
-import { portfolioConfig } from "@/config/portfolio.config";
-
-// Access configuration values
-const { name, title } = portfolioConfig;
-```

@@ -26,30 +26,38 @@ const SocialLinks = () => {
     //   icon: <Twitter />,
     // },
     {
-      name: "Slack",
-      link: portfolioConfig.socialLinks.slack,
-      icon: <Slack />,
-    },
-    {
       name: "Upwork",
       link: portfolioConfig.socialLinks.upwork,
-      icon:  <Image src="/upwork.svg" alt="Upwork" width={30} height={30} />,
+      icon: (
+        <Image
+          src="/upwork.svg"
+          alt="Upwork"
+          width={10}
+          height={10}
+          className="h-6 w-6 invert-0 dark:invert"
+        />
+      ),
     },
     {
       name: "Linkedin",
       link: portfolioConfig.socialLinks.linkedin,
       icon: <Linkedin />,
     },
-    // {
-    //   name: "External",
-    //   link: portfolioConfig.socialLinks.external,
-    //   icon: <ExternalLink />,
-    // },
     {
       name: "Github",
       link: portfolioConfig.socialLinks.github,
       icon: <Github />,
     },
+    {
+      name: "Slack",
+      link: portfolioConfig.socialLinks.slack,
+      icon: <Slack />,
+    },
+    // {
+    //   name: "External",
+    //   link: portfolioConfig.socialLinks.external,
+    //   icon: <ExternalLink />,
+    // },
   ];
   return (
     <>
@@ -59,10 +67,11 @@ const SocialLinks = () => {
         return (
           <FramerWrapper key={indx} delay={timing} y={50}>
             <Link
-              target="blank"
+              target="_blank"
               href={itm.link}
               className={cn(
-                buttonVariants({ variant: "outline", size: "icon" })
+                buttonVariants({ variant: "outline", size: "icon" }),
+                "border-black text-black dark:border-white dark:text-white"
               )}
             >
               {itm.icon}

@@ -13,7 +13,7 @@ export const portfolioConfig = {
     facebook: "https://www.facebook.com/hemangjagani",
     twitter: "https://twitter.com/hemangjagani",
     linkedin: "https://www.linkedin.com/in/hemang-jagani/",
-    external: "https://tinyurl.com/hemangjagani",
+    external: "https://upwork.com/freelancers/hemangjagani",
     github: "https://github.com/hemangjagani",
     upwork: "https://upwork.com/freelancers/hemangjagani",
     slack:
@@ -22,26 +22,25 @@ export const portfolioConfig = {
 
   // SEO Information
   seo: {
-    ogImage: "https://mdtaquiimam.vercel.app/og-image.png",
-    url: "https://mdtaquiimam.vercel.app",
-    twitterHandle: "@Taquiimam14",
+    ogImage: "https://hemangjagani.vercel.app/og-image.png",
+    url: "https://hemangjagani.vercel.app",
     keywords: [
-      "md",
-      "taqui",
-      "imam",
-      "Md",
-      "MD",
-      "TAQUI",
-      "Taqui",
-      "Imam",
-      "Imam",
+      "hemang",
+      "jagani",
+      "hemang jagani",
+      "hj",
+      "HJ",
+      "HEMANG",
+      "Hemang",
+      "Jagani",
+      "JAGANI",
       "Hemang Jagani",
       "Hemang Jagani",
-      "mdtaqui",
-      "mdtaquiimam",
-      "taqui imam",
-      "Taqui Imam",
-      "Taquiimam",
+      "Freelancer",
+      "upwork",
+      "Upwork",
+      "web developer",
+      "Mern developer",
       "portfolio",
       "web developer",
       "web",
@@ -51,9 +50,9 @@ export const portfolioConfig = {
       "programmer ",
       "Hemang Jagani ",
       "website",
-      "@Taquiimam",
-      "Taquiimam",
-      "taqui developer",
+      "@Hemangjagani",
+      "Hemangjagani",
+      "Hemang developer",
     ],
     authors: [
       {
@@ -65,7 +64,7 @@ export const portfolioConfig = {
 
   // About Information
   about: {
-    bio: `I am a Full Stack Web Developer based in Canada with years of experience delivering scalable and modern web applications. I specialize in React.js, Next.js, Node.js, and cloud platforms (AWS/GCP), building everything from intuitive UIs with Tailwind CSS and Shadcn to secure backends with REST/GraphQL APIs. I’ve worked on SaaS platforms, data visualization tools, and real-time dashboards, always focusing on performance, clean code, and seamless user experience. With a proven track record of collaborating with startups and enterprises, I bring both technical expertise and creative problem-solving to help businesses transform their ideas into production-ready solutions.`,
+    bio: `I am a Full Stack Web Developer living in Canada with years of experience delivering scalable and modern web applications. I specialize in React.js, Next.js, Node.js, and cloud platforms (AWS/GCP), building everything from intuitive UIs with Tailwind CSS and Shadcn to secure backends with REST/GraphQL APIs. I’ve worked on SaaS platforms, data visualization tools, and real-time dashboards, always focusing on performance, clean code, and seamless user experience. With a proven track record of collaborating with startups and enterprises, I bring both technical expertise and creative problem-solving to help businesses transform their ideas into production-ready solutions.`,
     hobbies: ["Coding", "Playing Games", "Watching Anime"],
     personalInfo: {
       currentNation: "Canada",
@@ -77,7 +76,7 @@ export const portfolioConfig = {
 
   // Skills and Roles
   skills: {
-    roles: ["Freelancer", "Creator", "Student"],
+    roles: ["Freelancer", "Student"],
     // Technical Skills
     programmingLanguages: [
       {
