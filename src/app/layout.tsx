@@ -4,6 +4,7 @@ import "./globals.css";
 import { cn } from "@/lib/utils";
 import Navbar from "@/components/Navbar";
 import { portfolioConfig } from "@/config/portfolio.config";
+import DarkMode from "@/components/DarkMode";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -46,7 +47,7 @@ export const metadata: Metadata = {
     creator: portfolioConfig.seo.twitterHandle,
   },
   icons: {
-    icon: "/favicon.ico",
+    icon: "/public/favicon.ico",
   },
 };
 
@@ -66,6 +67,7 @@ export default function RootLayout({
         >
           {/* NAVBAR ->  */}
           <Navbar />
+          {/* <DarkMode /> */}
           {children}
         </main>
       </body>

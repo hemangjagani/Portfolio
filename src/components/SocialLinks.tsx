@@ -5,34 +5,46 @@ import {
   Twitter,
   ExternalLink,
   Github,
+  Slack,
 } from "lucide-react";
 import { buttonVariants } from "./ui/button";
 import Link from "next/link";
 import FramerWrapper from "./animation/FramerWrapper";
 import { portfolioConfig } from "@/config/portfolio.config";
+import Image from "next/image";
 
 const SocialLinks = () => {
   const links = [
+    // {
+    //   name: "Facebook",
+    //   link: portfolioConfig.socialLinks.facebook,
+    //   icon: <Facebook />,
+    // },
+    // {
+    //   name: "Twitter",
+    //   link: portfolioConfig.socialLinks.twitter,
+    //   icon: <Twitter />,
+    // },
     {
-      name: "Facebook",
-      link: portfolioConfig.socialLinks.facebook,
-      icon: <Facebook />,
+      name: "Slack",
+      link: portfolioConfig.socialLinks.slack,
+      icon: <Slack />,
     },
     {
-      name: "Twitter",
-      link: portfolioConfig.socialLinks.twitter,
-      icon: <Twitter />,
+      name: "Upwork",
+      link: portfolioConfig.socialLinks.upwork,
+      icon:  <Image src="/upwork.svg" alt="Upwork" width={30} height={30} />,
     },
     {
       name: "Linkedin",
       link: portfolioConfig.socialLinks.linkedin,
       icon: <Linkedin />,
     },
-    {
-      name: "External",
-      link: portfolioConfig.socialLinks.external,
-      icon: <ExternalLink />,
-    },
+    // {
+    //   name: "External",
+    //   link: portfolioConfig.socialLinks.external,
+    //   icon: <ExternalLink />,
+    // },
     {
       name: "Github",
       link: portfolioConfig.socialLinks.github,
