@@ -64,11 +64,11 @@ export const portfolioConfig = {
 
   // About Information
   about: {
-    bio: `I am a Full Stack Web Developer living in Canada with years of experience delivering scalable and modern web applications. I specialize in React.js, Next.js, Node.js, and cloud platforms (AWS/GCP), building everything from intuitive UIs with Tailwind CSS and Shadcn to secure backends with REST/GraphQL APIs. I’ve worked on SaaS platforms, data visualization tools, and real-time dashboards, always focusing on performance, clean code, and seamless user experience. With a proven track record of collaborating with startups and enterprises, I bring both technical expertise and creative problem-solving to help businesses transform their ideas into production-ready solutions.`,
+    bio: `I am a Full Stack Web Developer living in Canada with years of experience delivering scalable and modern web applications. I specialize in React.js, Next.js, Node.js, and cloud platforms (AWS/GCP), building everything from intuitive and responsive UIs with secure backends with REST/GraphQL APIs. I’ve worked on SaaS platforms, data visualization tools, and real-time dashboards, always focusing on performance, clean code, and seamless user experience. With a proven track record of collaborating with startups and enterprises, I bring both technical expertise and creative problem-solving to help businesses transform their ideas into production-ready solutions.`,
     hobbies: ["Coding", "Playing Games", "Watching Anime"],
     personalInfo: {
       currentNation: "Canada",
-      language: "English UK",
+      language: "English",
       nationality: "India",
       gender: "Male",
     },
@@ -317,6 +317,40 @@ export const portfolioConfig = {
         "Completed Diploma in Information Technology with an excellent GPA of 8.89, earning a merit-based seat at Uka Tarsadia University without fees. Gained strong knowledge of programming languages including C, C++, Java, .NET, and C#, along with a solid foundation in Data Structures and Algorithms (DSA). Participated in the Rajasthan Hackathon, where I created a full-stack application using .NET and React, which enhanced my teamwork, problem-solving, and real-world development skills.",
     },
   ],
+  work: [
+    {
+      degree: "Teaching Assistant",
+      institution: "Algoma University",
+      location: "Brampton, Canada",
+      period: "February 2025 - April 2025",
+      description:
+        "Conducted weekly lab sessions and review workshops for over 50 undergraduate students, focusing on core Java programming and object-oriented principles (OOP). Delivered clear and engaging explanations of fundamental DSA topics including arrays, linked lists, trees, stacks, queues, and sorting algorithms.",
+    },
+    {
+      degree: "Freelancer (Full Stack Developer)",
+      institution: "Upwork 265+ hours",
+      location: "Remote",
+      period: "December 2024 - Present",
+      description:
+        "Designed and implemented scalable backend systems for cloud-based VPS and RDP services, leveraging GCP APIs to automate VM provisioning with configurable OS, RAM, storage, and control panel setup. Integrated third-party payment gateways for seamless transactions and subscription handling. Developed RESTful APIs using Node.js and Express, automated deployment pipelines with GitHub Actions and Docker, and created detailed API documentation with Swagger UI.",
+    },
+    {
+      degree: "Software Developer",
+      institution: "Infotech Solutions",
+      location: "Surat, India",
+      period: "December 2021 - August 2024",
+      description:
+        "Collaborated with cross-functional teams to gather requirements and deliver end-to-end solutions using React, Node.js, Express, REST services, and SQL/NoSQL Server. Developed reusable React components, implemented Redux Toolkit and RTK Query for global state management, and integrated secure payment gateways (Stripe, PayPal) and Single Sign-On (OIDC, OAuth 2.0). Built a real-time analytics dashboard with React, Express, and Socket.io, deployed applications on AWS and GCP, and led cloud migration efforts.",
+    },
+    {
+      degree: "Trainee Software Engineer",
+      institution: "Infotech Solutions",
+      location: "Surat, India",
+      period: "June 2021 - November 2021",
+      description:
+        "Assisted in building scalable web applications using React and Node.js. Contributed to backend development with Express and SQL, supported senior developers in API design and testing, and gained hands-on experience with Agile methodologies and cloud deployment workflows. Enhanced coding standards and debugging skills while contributing to client-facing modules.",
+    },
+  ],
 
   // Projects Information
   projects: [
@@ -336,7 +370,6 @@ export const portfolioConfig = {
       ],
       link: "https://tricargo.aero",
     },
-
     {
       title: "Kainam.ai - Data Analysis & Prediction Platform",
       description:
@@ -353,6 +386,13 @@ export const portfolioConfig = {
         "GitHub Actions",
       ],
       link: "https://kainam.ai",
+    },
+    {
+      title: "GroundUpVote - Voting Information Platform",
+      description:
+        "Developed a demo web application to provide insights into the voting system for client understanding. Users can select their nearby voting booth and get all updates related to voting. Built with Next.js for the frontend and backend, using MongoDB for data storage, and hosted on Railway to provide a robust and accessible demo.",
+      tags: ["Next.js", "Tailwind CSS", "MongoDB", "Full Stack", "Railway"],
+      link: "https://groundupvote-production.up.railway.app/",
     },
   ],
 

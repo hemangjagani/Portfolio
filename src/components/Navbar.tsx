@@ -52,6 +52,13 @@ const Navbar = () => {
       ),
       href: '/education',
     },
+     {
+      title: 'Work Experience',
+      icon: (
+        <Briefcase className='h-full w-full ' />  
+      ),
+      href: '/work',
+    },
     {
       title: 'Projects',
       icon: (
@@ -59,7 +66,6 @@ const Navbar = () => {
       ),
       href: '/projects',
     },
-   
     {
       title: 'Contact us',
       icon: (
@@ -67,6 +73,7 @@ const Navbar = () => {
       ),
       href: '/contact',
     },
+   
     // {
     //   title: 'More',
     //   icon: (
