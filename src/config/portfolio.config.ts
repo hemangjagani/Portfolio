@@ -354,23 +354,7 @@ export const portfolioConfig = {
 
   // Projects Information
   projects: [
-    {
-      title: "Tricargo.aero - Cargo Management System",
-      description:
-        "A neutral flight search and cargo management platform with frontend in React and backend in Python, GraphQL, and PostgreSQL. Implemented CI/CD pipelines using Docker and AWS services, integrated third-party aviation APIs, and processed large flight datasets for usability. Designed backend APIs to support third-party integrations and enable stakeholders to sell services externally.",
-      tags: [
-        "React",
-        "GraphQL",
-        "PostgreSQL",
-        "FastAPI",
-        "AWS",
-        "Docker",
-        "Material UI",
-        "React Context API",
-      ],
-      link: "https://tricargo.aero",
-    },
-    {
+     {
       title: "Kainam.ai - Data Analysis & Prediction Platform",
       description:
         "A web application that allows users to upload datasets, preprocess data, visualize results with interactive graphs, identify outliers, and generate predictions. Features include saving and modifying datasets, running ML models, and interactive data visualizations. Built with Next.js and Plotly on the frontend, Flask APIs for data processing, and deployed using GCP Cloud Run with GitHub Actions CI/CD pipelines.",
@@ -393,6 +377,28 @@ export const portfolioConfig = {
         "Developed a demo web application to provide insights into the voting system for client understanding. Users can select their nearby voting booth and get all updates related to voting. Built with Next.js for the frontend and backend, using MongoDB for data storage, and hosted on Railway to provide a robust and accessible demo.",
       tags: ["Next.js", "Tailwind CSS", "MongoDB", "Full Stack", "Railway"],
       link: "https://groundupvote-production.up.railway.app/",
+    },
+    {
+      title: "Tricargo.aero - Cargo Management System",
+      description:
+        "A neutral flight search and cargo management platform with frontend in React and backend in Python, GraphQL, and PostgreSQL. Implemented CI/CD pipelines using Docker and AWS services, integrated third-party aviation APIs, and processed large flight datasets for usability. Designed backend APIs to support third-party integrations and enable stakeholders to sell services externally.",
+      tags: [
+        "React",
+        "GraphQL",
+        "PostgreSQL",
+        "FastAPI",
+        "AWS",
+        "Docker",
+        "Material UI",
+        "React Context API",
+      ],
+      link: "https://tricargo.aero",
+    },
+    {
+      title: "Paymore",
+      description: "A plateform for managing all store operations such as billing, inventory, employees, and customers. Integrated Shopify API for seamless product and order management.",
+      tags: ["Nextjs", "Typescript", "Tailwind CSS", "Nodejs", "Expressjs", "Shopify API", "MySQL", "Prisma", "Zod", "React Hook Form", "Shadcn Ui", "Supabase" ],
+      link: "https://paymore.com/",
     },
   ],
 
